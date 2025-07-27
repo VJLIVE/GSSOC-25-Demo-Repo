@@ -1,12 +1,127 @@
-# React + Vite
+# 🌟 Contributing Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Thank you for your interest in contributing to this project! Your help is greatly appreciated. This guide outlines how to set up your environment, make changes, and submit contributions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework:** [React](https://reactjs.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Package Manager:** `npm`, `yarn`, or `pnpm`
+- **Language:** JavaScript or TypeScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+1. **Fork** the repository.
+2. **Clone** your fork:
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_FORK.git
+   cd YOUR_FORK
+   ```
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+4. **Start the development server:**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+5. Visit `http://localhost:5173` in your browser to view the app.
+
+---
+
+## 🧪 Running Tests
+
+If applicable, run tests using:
+
+```bash
+npm test
+# or
+yarn test
+# or
+pnpm test
+```
+
+---
+
+## 🛠 Making Changes
+
+- Create a new branch:
+
+  ```bash
+  git checkout -b feature/your-feature-name
+  ```
+
+- Make your changes and **commit with a meaningful message**:
+
+  ```bash
+  git commit -m "feat: add new feature xyz"
+  ```
+
+- Push to your fork:
+
+  ```bash
+  git push origin feature/your-feature-name
+  ```
+
+- Create a **Pull Request** from your branch into `main` (or `dev`, if used).
+
+---
+
+## 📋 Code Style Guide
+
+- Follow [Prettier](https://prettier.io/) formatting rules.
+- Lint your code with ESLint:
+
+  ```bash
+  npm run lint
+  ```
+
+- Use semantic commit messages:
+  - `feat:` for new features
+  - `fix:` for bug fixes
+  - `docs:` for documentation
+  - `chore:` for maintenance
+
+---
+
+## 📁 Project Structure (example)
+
+```
+src/
+├── assets/        # Static assets
+├── components/    # Reusable components
+├── pages/         # Route-based pages
+├── hooks/         # Custom React hooks
+├── styles/        # Global styles
+└── main.tsx       # Entry point
+```
+
+---
+
+## 💡 Suggestions
+
+- Open an issue to propose a feature or bug fix before starting work.
+- Keep PRs small and focused.
+- Add comments or documentation for complex logic.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
